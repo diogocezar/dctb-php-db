@@ -1,0 +1,15 @@
+/// Sass Shared Base Style
+/// @author Diogo Cezar <diogo@diogocezar.com>
+
+// Charset
+@charset 'utf-8';
+
+// Imports
+@import 'includes/colors.scss';
+@import 'includes/fonts.scss';
+@import 'includes/sizes.scss';
+@import 'includes/mixins.scss';
+@import 'includes/animations.scss';
+@import 'includes/menu.scss';
+@import 'includes/footer.scss';
+@import 'includes/shared.scss';

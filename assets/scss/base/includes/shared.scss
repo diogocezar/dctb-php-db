@@ -1,0 +1,64 @@
+/// dctb-sass
+/// Sass Boilerplate to start new project with some functionalities.
+/// @author Diogo Cezar <diogo@diogocezar.com>
+
+// Shared
+// Shared Configurations used in all pages
+
+*{
+  outline: none;
+}
+html{}
+body{
+  font-size: $size-base;
+  font-family: $font-primary;
+  background-color: $color-body-background;
+  color: $color-body;
+}
+*,
+*:after,
+*:before {
+  @include border-box;
+  -webkit-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+// Selection
+::-moz-selection, ::selection {
+  color: $color-black;
+  background: $color-white;
+}
+
+::-moz-selection {
+    color: $color-white;
+    background: $color-black;
+}
+
+::selection {
+    color: $color-white;
+    background: $color-black;
+}
+
+// Headings
+h1{
+  font-size: $size-s1;
+}
+h2{
+  font-size: $size-s2;
+}
+h3{
+	font-size: $size-s3;
+}
+
+// Paragraph
+p{
+  font-size: $size-normal;
+}
+
+// Fonts Include
+//@include font-face("Samplina Neue", fonts/SamplinaNeue, bold, italic);
+
+.error{
+  border-color: red;
+}

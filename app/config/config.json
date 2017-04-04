@@ -1,0 +1,12 @@
+{
+	"config": {
+		"database" : {
+			"type" : "mysql",
+			"host" : "<host>",
+			"user" : "<user>",
+			"pass" : "<pass>",
+			"base" : "<base>"
+		},
+		"dist" : "src"
+	}
+}
